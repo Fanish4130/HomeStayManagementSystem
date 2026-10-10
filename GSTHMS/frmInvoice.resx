@@ -1,0 +1,2199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblINVOICE.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblINVOICE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblINVOICE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 19.8pt, style=Bold</value>
+  </data>
+  <data name="lblINVOICE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 28</value>
+  </data>
+  <data name="lblINVOICE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 38</value>
+  </data>
+  <data name="lblINVOICE.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblINVOICE.Text" xml:space="preserve">
+    <value>INVOICE</value>
+  </data>
+  <data name="&gt;&gt;lblINVOICE.Name" xml:space="preserve">
+    <value>lblINVOICE</value>
+  </data>
+  <data name="&gt;&gt;lblINVOICE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblINVOICE.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblINVOICE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 16.2pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 69</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 44</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tathastu</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 125</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Location:Anant Path, Mulshi, Pune</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 200</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Contact: 📞 08511763025</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 162</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>More Info-Tathastu123@gmail.com</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 98</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>BILLED TO</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblname.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 153</value>
+  </data>
+  <data name="lblname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="lblname.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblname.Text" xml:space="preserve">
+    <value>Guest Name</value>
+  </data>
+  <data name="&gt;&gt;lblname.Name" xml:space="preserve">
+    <value>lblname</value>
+  </data>
+  <data name="&gt;&gt;lblname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblname.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblname.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblinvocecode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblinvocecode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblinvocecode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 153</value>
+  </data>
+  <data name="lblinvocecode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblinvocecode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblinvocecode.Name" xml:space="preserve">
+    <value>lblinvocecode</value>
+  </data>
+  <data name="&gt;&gt;lblinvocecode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblinvocecode.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblinvocecode.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblINV.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblINV.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblINV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 153</value>
+  </data>
+  <data name="lblINV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblINV.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblINV.Name" xml:space="preserve">
+    <value>lblINV</value>
+  </data>
+  <data name="&gt;&gt;lblINV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblINV.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblINV.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblaccno.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblaccno.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblaccno.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 165</value>
+  </data>
+  <data name="lblaccno.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblaccno.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblaccno.Name" xml:space="preserve">
+    <value>lblaccno</value>
+  </data>
+  <data name="&gt;&gt;lblaccno.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblaccno.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblaccno.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblANO.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblANO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblANO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 165</value>
+  </data>
+  <data name="lblANO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblANO.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblANO.Name" xml:space="preserve">
+    <value>lblANO</value>
+  </data>
+  <data name="&gt;&gt;lblANO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblANO.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblANO.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblinvoiceDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblinvoiceDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblinvoiceDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblinvoiceDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 191</value>
+  </data>
+  <data name="lblinvoiceDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblinvoiceDate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblinvoiceDate.Text" xml:space="preserve">
+    <value>Invoice Date  :</value>
+  </data>
+  <data name="&gt;&gt;lblinvoiceDate.Name" xml:space="preserve">
+    <value>lblinvoiceDate</value>
+  </data>
+  <data name="&gt;&gt;lblinvoiceDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblinvoiceDate.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblinvoiceDate.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblIDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblIDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblIDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 191</value>
+  </data>
+  <data name="lblIDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="lblIDate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblIDate.Text" xml:space="preserve">
+    <value>InvoiceD  </value>
+  </data>
+  <data name="&gt;&gt;lblIDate.Name" xml:space="preserve">
+    <value>lblIDate</value>
+  </data>
+  <data name="&gt;&gt;lblIDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIDate.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblIDate.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblbooking.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblbooking.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblbooking.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblbooking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 230</value>
+  </data>
+  <data name="lblbooking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="lblbooking.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblbooking.Text" xml:space="preserve">
+    <value>Booking Code  :</value>
+  </data>
+  <data name="&gt;&gt;lblbooking.Name" xml:space="preserve">
+    <value>lblbooking</value>
+  </data>
+  <data name="&gt;&gt;lblbooking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblbooking.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblbooking.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 260</value>
+  </data>
+  <data name="lblCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblCode.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Name" xml:space="preserve">
+    <value>lblCode</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblCode.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lblBCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblBCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblBCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 230</value>
+  </data>
+  <data name="lblBCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="lblBCode.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblBCode.Text" xml:space="preserve">
+    <value>Booking Code</value>
+  </data>
+  <data name="&gt;&gt;lblBCode.Name" xml:space="preserve">
+    <value>lblBCode</value>
+  </data>
+  <data name="&gt;&gt;lblBCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBCode.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblBCode.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 245</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblinvvv.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblinvvv.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblinvvv.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lblinvvv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 304</value>
+  </data>
+  <data name="lblinvvv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 29</value>
+  </data>
+  <data name="lblinvvv.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblinvvv.Text" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="&gt;&gt;lblinvvv.Name" xml:space="preserve">
+    <value>lblinvvv</value>
+  </data>
+  <data name="&gt;&gt;lblinvvv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblinvvv.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblinvvv.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 225</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGenrateReceipt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnGenrateReceipt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="btnGenrateReceipt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 655</value>
+  </data>
+  <data name="btnGenrateReceipt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 45</value>
+  </data>
+  <data name="btnGenrateReceipt.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnGenrateReceipt.Text" xml:space="preserve">
+    <value>Generate Invoice📥</value>
+  </data>
+  <data name="&gt;&gt;btnGenrateReceipt.Name" xml:space="preserve">
+    <value>btnGenrateReceipt</value>
+  </data>
+  <data name="&gt;&gt;btnGenrateReceipt.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;btnGenrateReceipt.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;btnGenrateReceipt.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="grdInvoiceDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdInvoiceDetails.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="grdInvoiceDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 350</value>
+  </data>
+  <data name="grdInvoiceDetails.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="grdInvoiceDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>791, 284</value>
+  </data>
+  <data name="grdInvoiceDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;grdInvoiceDetails.Name" xml:space="preserve">
+    <value>grdInvoiceDetails</value>
+  </data>
+  <data name="&gt;&gt;grdInvoiceDetails.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DataGridView, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;grdInvoiceDetails.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;grdInvoiceDetails.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lbltot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lbltot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lbltot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 667</value>
+  </data>
+  <data name="lbltot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="lbltot.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lbltot.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="&gt;&gt;lbltot.Name" xml:space="preserve">
+    <value>lbltot</value>
+  </data>
+  <data name="&gt;&gt;lbltot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltot.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lbltot.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 667</value>
+  </data>
+  <data name="lblt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="lblt.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblt.Text" xml:space="preserve">
+    <value>Total -</value>
+  </data>
+  <data name="&gt;&gt;lblt.Name" xml:space="preserve">
+    <value>lblt</value>
+  </data>
+  <data name="&gt;&gt;lblt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblt.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblt.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 826</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 50</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>THANK YOU FOR STAYING WITH US..!
+WE LOOK FORWARD TO YOUR NEXT VISIT : )</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="printdocPage.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="lblcheckin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblcheckin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblcheckin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblcheckin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 257</value>
+  </data>
+  <data name="lblcheckin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="lblcheckin.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lblcheckin.Text" xml:space="preserve">
+    <value>Check-in :</value>
+  </data>
+  <data name="&gt;&gt;lblcheckin.Name" xml:space="preserve">
+    <value>lblcheckin</value>
+  </data>
+  <data name="&gt;&gt;lblcheckin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcheckin.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblcheckin.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="lblChout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblChout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblChout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblChout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 293</value>
+  </data>
+  <data name="lblChout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="lblChout.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblChout.Text" xml:space="preserve">
+    <value>Check-Out :</value>
+  </data>
+  <data name="&gt;&gt;lblChout.Name" xml:space="preserve">
+    <value>lblChout</value>
+  </data>
+  <data name="&gt;&gt;lblChout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChout.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblChout.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lblCheckdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblCheckdate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCheckdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblCheckdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 257</value>
+  </data>
+  <data name="lblCheckdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="lblCheckdate.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lblCheckdate.Text" xml:space="preserve">
+    <value>checkindate</value>
+  </data>
+  <data name="&gt;&gt;lblCheckdate.Name" xml:space="preserve">
+    <value>lblCheckdate</value>
+  </data>
+  <data name="&gt;&gt;lblCheckdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCheckdate.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblCheckdate.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblcheckOut.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblcheckOut.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblcheckOut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblcheckOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 293</value>
+  </data>
+  <data name="lblcheckOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="lblcheckOut.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblcheckOut.Text" xml:space="preserve">
+    <value>checkindate</value>
+  </data>
+  <data name="&gt;&gt;lblcheckOut.Name" xml:space="preserve">
+    <value>lblcheckOut</value>
+  </data>
+  <data name="&gt;&gt;lblcheckOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcheckOut.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblcheckOut.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 227</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Booking Details</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 700</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Discount -</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbldiscount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lbldiscount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbldiscount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lbldiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 700</value>
+  </data>
+  <data name="lbldiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="lbldiscount.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lbldiscount.Text" xml:space="preserve">
+    <value>discount</value>
+  </data>
+  <data name="&gt;&gt;lbldiscount.Name" xml:space="preserve">
+    <value>lbldiscount</value>
+  </data>
+  <data name="&gt;&gt;lbldiscount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbldiscount.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lbldiscount.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lbltotal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lbltotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lbltotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 756</value>
+  </data>
+  <data name="lbltotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="lbltotal.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="lbltotal.Text" xml:space="preserve">
+    <value>Sub Total -</value>
+  </data>
+  <data name="&gt;&gt;lbltotal.Name" xml:space="preserve">
+    <value>lbltotal</value>
+  </data>
+  <data name="&gt;&gt;lbltotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltotal.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lbltotal.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblsubtotal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblsubtotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblsubtotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblsubtotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 756</value>
+  </data>
+  <data name="lblsubtotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="lblsubtotal.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lblsubtotal.Text" xml:space="preserve">
+    <value>subtotal</value>
+  </data>
+  <data name="&gt;&gt;lblsubtotal.Name" xml:space="preserve">
+    <value>lblsubtotal</value>
+  </data>
+  <data name="&gt;&gt;lblsubtotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblsubtotal.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblsubtotal.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>569, 720</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 20</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>______________________</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblGenratedby.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblGenratedby.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGenratedby.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblGenratedby.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 273</value>
+  </data>
+  <data name="lblGenratedby.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="lblGenratedby.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lblGenratedby.Text" xml:space="preserve">
+    <value>Generated By :</value>
+  </data>
+  <data name="&gt;&gt;lblGenratedby.Name" xml:space="preserve">
+    <value>lblGenratedby</value>
+  </data>
+  <data name="&gt;&gt;lblGenratedby.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGenratedby.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblGenratedby.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblGenrated.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblGenrated.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGenrated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblGenrated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 273</value>
+  </data>
+  <data name="lblGenrated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="lblGenrated.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblGenrated.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="&gt;&gt;lblGenrated.Name" xml:space="preserve">
+    <value>lblGenrated</value>
+  </data>
+  <data name="&gt;&gt;lblGenrated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGenrated.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblGenrated.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblCurrentPaid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblCurrentPaid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentPaid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblCurrentPaid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 795</value>
+  </data>
+  <data name="lblCurrentPaid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="lblCurrentPaid.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblCurrentPaid.Text" xml:space="preserve">
+    <value>Current Paid -</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentPaid.Name" xml:space="preserve">
+    <value>lblCurrentPaid</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentPaid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentPaid.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentPaid.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblCpaid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblCpaid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCpaid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblCpaid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 795</value>
+  </data>
+  <data name="lblCpaid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="lblCpaid.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lblCpaid.Text" xml:space="preserve">
+    <value>CPaid</value>
+  </data>
+  <data name="&gt;&gt;lblCpaid.Name" xml:space="preserve">
+    <value>lblCpaid</value>
+  </data>
+  <data name="&gt;&gt;lblCpaid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCpaid.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblCpaid.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblremaning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblremaning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblremaning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblremaning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblremaning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 839</value>
+  </data>
+  <data name="lblremaning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="lblremaning.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lblremaning.Text" xml:space="preserve">
+    <value>Remaning</value>
+  </data>
+  <data name="&gt;&gt;lblremaning.Name" xml:space="preserve">
+    <value>lblremaning</value>
+  </data>
+  <data name="&gt;&gt;lblremaning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblremaning.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblremaning.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblrem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblrem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblrem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblrem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblrem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 839</value>
+  </data>
+  <data name="lblrem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="lblrem.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="lblrem.Text" xml:space="preserve">
+    <value>Remaning Paid -</value>
+  </data>
+  <data name="&gt;&gt;lblrem.Name" xml:space="preserve">
+    <value>lblrem</value>
+  </data>
+  <data name="&gt;&gt;lblrem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblrem.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;lblrem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAABXxJREFUeF7tncnLHUUUxQ/O/4OzUdyoWWSjoDgFcW8UB1DcqkERMeKMmqiIC1cG
+        HFBR/wkFF84hCzXEYRFRtw44T4kDh9SDz+N971X3q6rud/se+MHHe13VVbe+1zXdug2EQqFQKORXxwHY
+        DOAqAPcCeAXAuwA+AnAAwHcA/kjwb37G794B8HJKc2XK41jNPLRcRwHYAmAHgNcA/Abgn0IcBLAXwGMA
+        tkYDzdcRAC4F8CKAHw1D1oL3egHAJakMk9eJAHYB+MowVmtYhp0ATtBCTkGnAniq8OOoFH8CeAnAmVpo
+        j2JDsFM+ZBhibLC/4aDgFK2EBx0N4FYAPxkVHzu/AnjQ0wCAo5nPjIquG5+mzn9txeEr/7P+Miq3rvyd
+        +r5jtLJjF0dPbxsV8sKe1B+uhS5PM2athDe+BXCZVn5sui4NG7XwXuFI7EY1wli03Vl/kQv7lTvUGEPr
+        IaOgU4MDmFHoZqNwU+V2NU5rXTvRx9Q8+Pi6QY3UShxNTakDz4X7Ms1HX5xnfGMUJjgMh/3N1sC4LuV5
+        0leK91rN6J80bh7YPK7GKy0uFLLj0hsHNrTVxWrEUuLP7xPjpsFiuNJdZen+PuNmQR53qTFX1ckAfjZu
+        FOTxS+nV4VeNmwTd4D59EW1Kq5p6g6Ab9CM4XY3bR88amQf92K3G7SrOyLkUoBkH/eBS00lq5C6iE5tm
+        GqzGI2rkXNG1cgwehd74oq/bKmflmllQhovU2Dmi47NmFJThOTX2MnGZpKUX+jy4LaqfeeCHtGqerQuM
+        TFrzQCqLfu6F88TmC3W/kUFLZo1B6XdeuGdDHZfqDSODVmxsDEq/98LrUs+54pm+340MWmC50ug1XuDZ
+        mKxleR6O1MQt0F/GTHqdJ87SylriaVdNWJt5jUHptZ64QitrqXWHvqgxKL3eE1kdO4+cacJaLGsMStN4
+        ImuPpJWLj9WBW9J0nnhTK2tpn5GwNDm/jJk0rSc+1Mpa4mqkJixJl8agNL0nPtfKWuLJIE1Yiq6NMUZp
+        nVbha83cUq0dQg+NQWm9VoET8KWq1SAM+OJBWq9VyGqQmo8sD42idVqFrEdW7U69a6Noek9kdeothr1d
+        GkXTeiJr2PuWkbAGMTHMnBgyAo4mrEXOL0XTeIJ+C0vV2st9WaPo9Z64WytraYjl90WNotd6Imv5fagN
+        qnmNotd5ImuDilu4Q4Xeszp6vcYLDIyWtYVLDenkoL8U/d4LDIGbrda7hsrGRtHvvJDVoc90vpFBa2aN
+        op974Vyx+ULRzTFcSevxfQqB2EmM+KwZBWXgqbTOYuhvzSgow4Vq7BzFgZ069D6wQ8WRtvI8rEbuIgam
+        r7WDOEW4Q3i8GrmrnjEyDvrxtBq3j06LwAFF4JHoYuE1Wu6ReIXTiGLiYfcIPtMfBp8pHvKPntp6oyCP
+        O9WYJcSTuR8bNwsWs7/ridsu4vszIsRfPoxp3CtIQBc9Ydw4sHlUjVdDXKVs5Sq0zvDll9UeVaoIpLwY
+        BlJmWMSmYjjtCDX+f7jUxMA9g+jqCMb/HzjguV6N1Fo3GQWbKrepcYaS163WLozuQNItE318jfKVRzPx
+        BS9T6ujZgV+jRhibOPqawpCYp58GG011FecpnieP75fc22glz69ebTYDryG+P8PDay64alt9obCV1vn1
+        3dxccvX67o3i+g4j4KzDHj3LyG1X9ofuxe1MPouHOoeyCA5l+U9zhhZ6CqLfF2Ohf2kYpjX0KKQT28p+
+        Ux5E10p2mM+nIMNqrFrQC51Rpulr29u907uOBLAFwI50yohHv9SQfWG/sDedPeGkrsl7Br2JRjsHwLbk
+        +cLnOyedHwA4kGKz8LlP+Dc/43e8htfypBLTnh0NEAqFQiHP+hfv7YF4+WhUHAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="guna2PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="guna2PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 52</value>
+  </data>
+  <data name="guna2PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="guna2PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Name" xml:space="preserve">
+    <value>guna2PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Parent" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="guna2ContainerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 25</value>
+  </data>
+  <data name="guna2ContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 886</value>
+  </data>
+  <data name="guna2ContainerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="guna2ContainerControl1.Text" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl1.Name" xml:space="preserve">
+    <value>guna2ContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ContainerControl, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl1.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 826</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 795</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 795</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>569, 720</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 125</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 756</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 200</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 756</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 273</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 700</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 162</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 700</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 273</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 667</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 98</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 667</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 153</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 153</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 304</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 153</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 165</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 165</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 227</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label36.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 191</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label37.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label37.Name" xml:space="preserve">
+    <value>label37</value>
+  </data>
+  <data name="&gt;&gt;label37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label37.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label37.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 293</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label38.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;label38.Name" xml:space="preserve">
+    <value>label38</value>
+  </data>
+  <data name="&gt;&gt;label38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label38.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label38.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 191</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label39.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label39.Name" xml:space="preserve">
+    <value>label39</value>
+  </data>
+  <data name="&gt;&gt;label39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label39.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label39.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 257</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label40.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;label40.Name" xml:space="preserve">
+    <value>label40</value>
+  </data>
+  <data name="&gt;&gt;label40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label40.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label40.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 230</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label41.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label41.Name" xml:space="preserve">
+    <value>label41</value>
+  </data>
+  <data name="&gt;&gt;label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label41.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 293</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label42.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;label42.Name" xml:space="preserve">
+    <value>label42</value>
+  </data>
+  <data name="&gt;&gt;label42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label42.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label42.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 260</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label43.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label43.Name" xml:space="preserve">
+    <value>label43</value>
+  </data>
+  <data name="&gt;&gt;label43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label43.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label43.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 257</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label44.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;label44.Name" xml:space="preserve">
+    <value>label44</value>
+  </data>
+  <data name="&gt;&gt;label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label44.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 230</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label45.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label45.Name" xml:space="preserve">
+    <value>label45</value>
+  </data>
+  <data name="&gt;&gt;label45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label45.Parent" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;label45.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="guna2ContainerControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="guna2ContainerControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 950</value>
+  </data>
+  <data name="guna2ContainerControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl2.Name" xml:space="preserve">
+    <value>guna2ContainerControl2</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ContainerControl, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2ContainerControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>878, 937</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>frmInvoice</value>
+  </data>
+  <data name="&gt;&gt;printdocPage.Name" xml:space="preserve">
+    <value>printdocPage</value>
+  </data>
+  <data name="&gt;&gt;printdocPage.Type" xml:space="preserve">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmInvoice</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
